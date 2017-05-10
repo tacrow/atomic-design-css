@@ -1,0 +1,27 @@
+/*
+ * object/component/_button.scss
+ */
+.a-btn {
+	display: inline-block;
+	padding: 5px 15px 4px;
+	border-radius: 2px;
+	background-color: #cccccc;
+	color: #ffffff;
+	@include font16;
+	&:hover {
+		opacity: 0.7;
+		transition: all 0.5s;
+	}
+	&--signup {
+		position: absolute;
+		top: 11px;
+		right: 15px;
+		background-color: #128fdc;
+	}
+	&--submit {
+		background-color: #d9534f;
+	}
+	&--close {
+		background-color: #a9a9a9;
+	}
+}
