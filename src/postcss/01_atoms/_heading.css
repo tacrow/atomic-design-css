@@ -1,0 +1,17 @@
+/*
+ * 01_atoms/_heading.css
+ */
+
+.a-h1 {
+	&--logo {
+		color: #fff;
+		@include fs18;
+	}
+}
+.a-h2 {
+	margin-bottom: 20px;
+	padding: 1px 10px 10px 0;
+	border-bottom: 1px solid #ddd;
+	color: #333;
+	@include fs18;
+}

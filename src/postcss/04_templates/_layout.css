@@ -1,0 +1,22 @@
+/*
+ * 04_templates/_button.css
+ */
+
+.t-content {
+  position: relative;
+  width: 1040px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  &__main {
+    float: left;
+    width: 730px;
+  }
+  &__side {
+    float: right;
+    width: 280px;
+  }
+}
+
+.t-section {
+  margin-bottom: 20px;
+}

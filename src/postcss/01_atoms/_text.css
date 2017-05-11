@@ -1,0 +1,16 @@
+/*
+ * 01_atoms/_text.css
+ */
+
+.a-text-base {
+	@include fs-base;
+	&--para {
+		@include fs14;
+		line-height: 1.4;
+	}
+}
+
+.a-copyright {
+	color: #fff;
+	@include fs-base;
+}

@@ -1,35 +1,27 @@
 @charset "utf-8";
-/*
- * Foundation
- */
+
+/* Foundation */
 @import "foundation/_mixins";
 @import "foundation/_reset";
 @import "foundation/_base";
 
-/*
- * Atoms
- */
+/* 01_Atoms */
+@import "01_atoms/_heading";
 @import "01_atoms/_button";
+@import "01_atoms/_text";
 
-/*
- * Molecules
- */
+/* 02_Molecules */
 
-/*
- * Organisms
- */
+/* 03_Organisms */
+@import "03_organisms/_global-header";
+@import "03_organisms/_global-footer";
 
-/*
- * Templates
- */
+/* 04_Templates */
+@import "04_templates/_layout";
 
-/*
- * Pages
- */
+/* 05_Pages */
 
-/*
- * Utility
- */
+/* Utility */
 @import "utility/_typography";
 @import "utility/_dimension";
 @import "utility/_spaces";

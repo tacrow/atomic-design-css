@@ -1,0 +1,12 @@
+/*
+ * 03_organisms/_global-footer.css
+ */
+
+.o-global-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-top: 50px;
+	padding: 20px;
+	background-color: #4e4949;
+}
