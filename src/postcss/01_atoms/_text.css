@@ -12,5 +12,5 @@
 
 .a-copyright {
 	color: #fff;
-	@include fs-base;
+	@include fs12;
 }

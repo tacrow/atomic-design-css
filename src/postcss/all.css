@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 /* Foundation */
+@import "foundation/_var";
 @import "foundation/_mixins";
 @import "foundation/_reset";
 @import "foundation/_base";
@@ -8,9 +9,11 @@
 /* 01_Atoms */
 @import "01_atoms/_heading";
 @import "01_atoms/_button";
+@import "01_atoms/_link";
 @import "01_atoms/_text";
 
 /* 02_Molecules */
+@import "02_molecules/_global-navigation";
 
 /* 03_Organisms */
 @import "03_organisms/_global-header";

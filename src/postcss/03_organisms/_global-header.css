@@ -3,8 +3,13 @@
  */
 
 .o-global-header {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
-	padding: 20px;
+	height: 70px;
 	background-color: #4e4949;
 	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	z-index: 9999;
 }

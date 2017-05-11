@@ -1,0 +1,18 @@
+/*
+ * 01_atoms/_link.css
+ */
+
+/*
+ * global-navigation
+ */
+.a-global-navigation-link {
+	a {
+		padding: 10px 15px;
+		color: #fff;
+		@include fs14;
+		transition: all .3s;
+		&:hover {
+			opacity: .7;
+		}
+	}
+}

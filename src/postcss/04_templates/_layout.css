@@ -4,19 +4,20 @@
 
 .t-content {
   position: relative;
-  width: 1040px;
-  margin: 0 auto 20px;
+  width: 920px;
+  margin: 0 auto 30px;
+  padding-top: 90px;
   background-color: #fff;
   &__main {
     float: left;
-    width: 730px;
+    width: 640px;
   }
   &__side {
     float: right;
-    width: 280px;
+    width: 250px;
   }
 }
 
 .t-section {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }

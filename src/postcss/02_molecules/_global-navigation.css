@@ -1,0 +1,12 @@
+/*
+ * 02_molecules/_navigation.css
+ */
+
+.m-global-navigation {
+	position: absolute;
+	top: 16px;
+	right: 15px;
+	&__item {
+		float: left;
+	}
+}

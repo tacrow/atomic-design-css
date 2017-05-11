@@ -2,23 +2,10 @@
  * foundation/_mixins.scss
  */
 
-/* color */
-$txt-white-color: #fff;
-
-$txt-base-color: #333;
-
-$link-base-color: #dfdfdf;
-
-$bg-base-color: #ccc;
-
 /* background-image */
 @mixin bg-img($imgName) {
 	background-image: url("../img/" + $imgName + ".png");
 }
-
-/* font-size */
-$font-size-base-px: 11px;
-$font-size-base-rem: 1.1rem;
 
 @mixin fs-base {
 	font-size: $font-size-base-px;
