@@ -33,7 +33,7 @@ dfn {
 	font-style: italic;
 }
 h1 {
-	margin: 0.67em 0;
+	margin: .67em 0;
 }
 mark {
 	background: #ff0;
@@ -49,10 +49,10 @@ sub, sup {
 	vertical-align: baseline;
 }
 sup {
-	top: -0.5em;
+	top: -.5em;
 }
 sub {
-	bottom: -0.25em;
+	bottom: -.25em;
 }
 img {
 	border: 0;
@@ -129,7 +129,7 @@ input[type="search"]::-webkit-search-decoration {
 fieldset {
 	border: 1px solid silver;
 	margin: 0 2px;
-	padding: 0.35em 0.625em 0.75em;
+	padding: .35em .625em .75em;
 }
 legend {
 	border: 0;
